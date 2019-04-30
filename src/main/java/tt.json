@@ -1,0 +1,3 @@
+既然你使用了FileInputStream()。那么对应的需要使用InputStreamReader()这个方法进行解读刚才装进来内存当中的数据
+
+解读完成后要输出呀。那当然要转换成IO可以识别的数据呀。那就需要调用字节码读取的方法BufferedReader()。同时使用bufferedReader()的readline(）方法读取txt文件中的每一行数据哈
