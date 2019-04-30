@@ -1,7 +1,7 @@
 import java.io.*;
 public class Test{
     public static void main(String [] args) throws Exception {
-       File a=new File(System.getProperty("user.dir")+"/src/main/java/tt.json");
+       File a=new File(System.getProperty("user.dir")+"/tt.json");
         FileInputStream b=new FileInputStream(a);
         InputStreamReader ir=new InputStreamReader(b);
         BufferedReader bf=new BufferedReader(ir);
